@@ -1,0 +1,42 @@
+h1
+{
+    background-color: lightcyan;
+    text-align: left;
+}
+
+body
+{
+    background-color: cadetblue;
+}
+
+h3
+{
+    text-align: center;
+    background-color: darkcyan;
+    color: 
+}
+
+#bad
+{
+    background-color: steelblue;
+}
+
+.sold
+{
+    background-color: blueviolet;
+}
+
+p
+{
+    background-color: lightblue;
+}
+.idphoto
+{
+    position: relative;
+    left: 500px;
+}
+
+table.solid {border-style: solid;}
+table.dotted {border-style: dotted;}
+
+tr.mix {border-style: dotted dashed solid double;}
