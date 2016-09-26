@@ -4,15 +4,28 @@
     
     <head>
         <link rel = "stylesheet" href="day1.css" />
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+        <script>
+        $(document).ready(function(){
+            $("button").click(function(){
+                $("#panel").slideToggle("slow");
+            });
+        });
+        </script>
+        
     </head>
     
     <body>
         <h1 style="text-align:center"> Boting Li </h1>
         <p style="font-size:150%"><i> Cornell id: bl657 </i></p>
          <a class= "idphoto" href="https://botingli.github.io">
+             <div id = 'panel'>
             <img src="small.jpg" alt="HTML tutorial" align="middle" style="width:250px;height:240px;border:5;" >
             </img>
+             </div>
         </a>
+    
+        <button>Click me to hide/show my pic</button>
         <p > Short biography: </p>
         
         <ul>
